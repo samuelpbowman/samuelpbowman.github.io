@@ -1,0 +1,31 @@
+body {
+    /* font-family: Montserrat; */
+    overflow-y: scroll;
+    scroll-margin-top: 1rem;
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.9),
+            rgba(0, 0, 0, 0.9)
+        ),
+        url(hexagons.png);
+}
+
+body * {
+    color: whitesmoke;
+}
+
+section {
+    scroll-snap-type: y mandatory;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.centered {
+    top: 25%;
+    left: 25%;
+}
+
+.scrollable {
+    overflow: scroll;
+    max-height: 20rem;
+}
